@@ -18,8 +18,7 @@
 
 ## 👋 关于我（About Me）
 
-* 🔭 目前在做：`AV`
-* 🎯 2025 OKRs：**写完 5 篇技术博客**
+* 🔭 目前在做：`考研`
 * 📝 博客/公众号： [https://chenaizhang.github.io] 
 * 📫 联系方式：`z527158571@gmail.com`
 
