@@ -4,7 +4,7 @@
 
 Guangzhou, China
 
-[Blog](https://chenaizhang.github.io) · [GitHub](https://github.com/chenaizhang) · [Email](mailto:ziyou.zhang.cs@outlook.com)
+[Blog](https://chenaizhang.github.io) · [Email](mailto:ziyou.zhang.cs@outlook.com)
 
 </div>
 
