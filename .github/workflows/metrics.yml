@@ -29,6 +29,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-          plugin_repositories: yes
-          plugin_repositories_featured: Clarivo, KernelSU-Style-UI-Kit, paperSubSystem
-          plugin_repositories_forks: no
