@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">ChenaiZhang GitHub Metrics Dashboard</title>
+  <desc id="desc">Initial dashboard shown until the GitHub Metrics workflow completes its first run.</desc>
+
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#161b22"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="1" stop-color="#a371f7"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#010409" flood-opacity="0.35"/>
+    </filter>
+    <style>
+      .title { fill: #f0f6fc; font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .subtitle { fill: #8b949e; font: 500 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .card-title { fill: #f0f6fc; font: 650 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .label { fill: #8b949e; font: 600 12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; letter-spacing: 1.1px; }
+      .value { fill: #c9d1d9; font: 500 16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .mono { fill: #c9d1d9; font: 500 14px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .accent { fill: #58a6ff; }
+      .success { fill: #3fb950; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="720" rx="22" fill="url(#background)"/>
+  <rect x="1" y="1" width="1198" height="718" rx="21" fill="none" stroke="#30363d"/>
+  <rect width="1200" height="5" rx="2.5" fill="url(#accent)"/>
+
+  <g transform="translate(48 42)">
+    <circle cx="19" cy="19" r="19" fill="#1f6feb"/>
+    <path d="M12 19h14M19 12v14" stroke="#fff" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="54" y="25" class="title">GitHub Control Center</text>
+    <text x="54" y="51" class="subtitle">CHENAIZHANG · Asia/Shanghai · automated daily</text>
+
+    <g transform="translate(820 3)">
+      <rect width="236" height="38" rx="19" fill="#2d2a1f" stroke="#9e6a03"/>
+      <circle cx="22" cy="19" r="5" fill="#d29922"/>
+      <text x="39" y="24" fill="#e3b341" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="14" font-weight="600">WAITING FOR FIRST SYNC</text>
+    </g>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="48" y="126" width="354" height="204" rx="16" fill="#161b22" stroke="#30363d"/>
+    <rect x="423" y="126" width="729" height="204" rx="16" fill="#161b22" stroke="#30363d"/>
+    <rect x="48" y="351" width="1104" height="224" rx="16" fill="#161b22" stroke="#30363d"/>
+    <rect x="48" y="596" width="1104" height="76" rx="16" fill="#161b22" stroke="#30363d"/>
+  </g>
+
+  <g transform="translate(76 155)">
+    <text class="card-title">System Profile</text>
+    <text y="46" class="label">FOCUS</text>
+    <text x="108" y="46" class="value">CS · AI · Backend</text>
+    <text y="82" class="label">LOCATION</text>
+    <text x="108" y="82" class="value">Guangzhou, China</text>
+    <text y="118" class="label">SOURCE</text>
+    <text x="108" y="118" class="value">GitHub public activity</text>
+    <text y="154" class="label">REFRESH</text>
+    <text x="108" y="154" class="value">Daily at 00:00 CST</text>
+  </g>
+
+  <g transform="translate(451 155)">
+    <text class="card-title">Enabled Modules</text>
+
+    <g transform="translate(0 31)">
+      <circle cx="8" cy="8" r="8" fill="#173a24"/>
+      <path d="m4 8 3 3 5-6" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="13" class="mono">LANGUAGES</text>
+      <rect x="151" y="1" width="138" height="14" rx="7" fill="#21262d"/>
+      <rect x="151" y="1" width="101" height="14" rx="7" fill="#1f6feb"/>
+    </g>
+    <g transform="translate(340 31)">
+      <circle cx="8" cy="8" r="8" fill="#173a24"/>
+      <path d="m4 8 3 3 5-6" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="13" class="mono">ACTIVITY</text>
+      <rect x="139" y="1" width="138" height="14" rx="7" fill="#21262d"/>
+      <rect x="139" y="1" width="84" height="14" rx="7" fill="#8957e5"/>
+    </g>
+    <g transform="translate(0 78)">
+      <circle cx="8" cy="8" r="8" fill="#173a24"/>
+      <path d="m4 8 3 3 5-6" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="13" class="mono">COMMUNITY</text>
+      <rect x="151" y="1" width="138" height="14" rx="7" fill="#21262d"/>
+      <rect x="151" y="1" width="64" height="14" rx="7" fill="#238636"/>
+    </g>
+    <g transform="translate(340 78)">
+      <circle cx="8" cy="8" r="8" fill="#173a24"/>
+      <path d="m4 8 3 3 5-6" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="13" class="mono">REPOSITORIES</text>
+      <rect x="139" y="1" width="138" height="14" rx="7" fill="#21262d"/>
+      <rect x="139" y="1" width="112" height="14" rx="7" fill="#bf8700"/>
+    </g>
+    <g transform="translate(0 125)">
+      <circle cx="8" cy="8" r="8" fill="#173a24"/>
+      <path d="m4 8 3 3 5-6" fill="none" stroke="#3fb950" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="13" class="mono">ISOCALENDAR · YEAR</text>
+      <rect x="226" y="1" width="403" height="14" rx="7" fill="#21262d"/>
+      <rect x="226" y="1" width="337" height="14" rx="7" fill="url(#accent)"/>
+    </g>
+  </g>
+
+  <g transform="translate(76 380)">
+    <text class="card-title">Contribution Calendar</text>
+    <text x="1060" text-anchor="end" class="subtitle">generated by lowlighter/metrics</text>
+
+    <g transform="translate(0 34)" fill="#21262d" stroke="#30363d">
+      <rect x="0" y="0" width="30" height="30" rx="5"/><rect x="38" y="0" width="30" height="30" rx="5"/><rect x="76" y="0" width="30" height="30" rx="5"/><rect x="114" y="0" width="30" height="30" rx="5"/><rect x="152" y="0" width="30" height="30" rx="5"/><rect x="190" y="0" width="30" height="30" rx="5"/><rect x="228" y="0" width="30" height="30" rx="5"/><rect x="266" y="0" width="30" height="30" rx="5"/><rect x="304" y="0" width="30" height="30" rx="5"/><rect x="342" y="0" width="30" height="30" rx="5"/><rect x="380" y="0" width="30" height="30" rx="5"/><rect x="418" y="0" width="30" height="30" rx="5"/><rect x="456" y="0" width="30" height="30" rx="5"/><rect x="494" y="0" width="30" height="30" rx="5"/><rect x="532" y="0" width="30" height="30" rx="5"/><rect x="570" y="0" width="30" height="30" rx="5"/><rect x="608" y="0" width="30" height="30" rx="5"/><rect x="646" y="0" width="30" height="30" rx="5"/><rect x="684" y="0" width="30" height="30" rx="5"/><rect x="722" y="0" width="30" height="30" rx="5"/><rect x="760" y="0" width="30" height="30" rx="5"/><rect x="798" y="0" width="30" height="30" rx="5"/><rect x="836" y="0" width="30" height="30" rx="5"/><rect x="874" y="0" width="30" height="30" rx="5"/><rect x="912" y="0" width="30" height="30" rx="5"/><rect x="950" y="0" width="30" height="30" rx="5"/><rect x="988" y="0" width="30" height="30" rx="5"/><rect x="1026" y="0" width="30" height="30" rx="5"/>
+      <rect x="0" y="38" width="30" height="30" rx="5"/><rect x="38" y="38" width="30" height="30" rx="5"/><rect x="76" y="38" width="30" height="30" rx="5"/><rect x="114" y="38" width="30" height="30" rx="5"/><rect x="152" y="38" width="30" height="30" rx="5"/><rect x="190" y="38" width="30" height="30" rx="5"/><rect x="228" y="38" width="30" height="30" rx="5"/><rect x="266" y="38" width="30" height="30" rx="5"/><rect x="304" y="38" width="30" height="30" rx="5"/><rect x="342" y="38" width="30" height="30" rx="5"/><rect x="380" y="38" width="30" height="30" rx="5"/><rect x="418" y="38" width="30" height="30" rx="5"/><rect x="456" y="38" width="30" height="30" rx="5"/><rect x="494" y="38" width="30" height="30" rx="5"/><rect x="532" y="38" width="30" height="30" rx="5"/><rect x="570" y="38" width="30" height="30" rx="5"/><rect x="608" y="38" width="30" height="30" rx="5"/><rect x="646" y="38" width="30" height="30" rx="5"/><rect x="684" y="38" width="30" height="30" rx="5"/><rect x="722" y="38" width="30" height="30" rx="5"/><rect x="760" y="38" width="30" height="30" rx="5"/><rect x="798" y="38" width="30" height="30" rx="5"/><rect x="836" y="38" width="30" height="30" rx="5"/><rect x="874" y="38" width="30" height="30" rx="5"/><rect x="912" y="38" width="30" height="30" rx="5"/><rect x="950" y="38" width="30" height="30" rx="5"/><rect x="988" y="38" width="30" height="30" rx="5"/><rect x="1026" y="38" width="30" height="30" rx="5"/>
+    </g>
+
+    <text x="528" y="150" text-anchor="middle" class="value">Live metrics appear after the first workflow run</text>
+    <text x="528" y="177" text-anchor="middle" class="subtitle">The workflow automatically replaces this preview</text>
+  </g>
+
+  <g transform="translate(76 623)">
+    <circle cx="12" cy="12" r="12" fill="#1f6feb"/>
+    <text x="12" y="17" text-anchor="middle" fill="#fff" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" font-weight="700">▶</text>
+    <text x="38" y="17" class="mono">Add METRICS_TOKEN, then run the “GitHub Metrics” workflow</text>
+  </g>
+</svg>
